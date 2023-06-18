@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="square" id="square">
+
+    </div>
+    <input type="text" id="textInput" />
+    <button id="btnCambiar">Cambiar</button>
+
+    <div>
+        <label for="peso">Peso (kg):</label>
+        <input type="number" id="peso" />
+
+        <label for="altura">Altura (cm):</label>
+        <input type="number" id="altura" />
+
+        <button id="btnCalcular">Calcular</button>
+
+        <label for="resultado">IMC:</label>
+        <input type="text" id="resultado" readonly />
+    </div>
+
+    <div>
+        <label for="dolar">Dolar (USD):</label>
+        <input type="number" id="dolar" />
+
+        <label for="pesos">Peso (COP):</label>
+        <input type="number" id="pesos" />
+
+        <hr />
+
+        <label for="conversionDolar">Valor Dólar (COP):</label>
+        <input type="number" id="conversionDolar" value="4142.26" />
+
+        <label for="conversionPeso">Valor Peso (USD):</label>
+        <input type="number" id="conversionPeso" value="0.00024" />
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
